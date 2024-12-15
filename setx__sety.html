@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="id">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Setx &amp; Sety | libturtle </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="roy" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.9 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<link rel="stylesheet" type="text/css" href="udl-content.css" />
+<script type="text/javascript" src="udl-content.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head>
+<body class="exe-web-site" id="exe-node-15"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Skip navigation</a></p>
+<header id="header" ><div id="headerContent">libturtle</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Library Turtle</a></li>
+   <li class="current-page-parent"><a href="turtle_motion.html" class="current-page-parent daddy">Turtle Motion</a>
+   <ul>
+      <li><a href="left__right.html" class="no-ch">Left &amp; Right</a></li>
+      <li><a href="forward__backward.html" class="no-ch">Forward &amp; Backward</a></li>
+      <li><a href="setposition.html" class="no-ch">Setposition</a></li>
+      <li id="active"><a href="setx__sety.html" class="active no-ch">Setx &amp; Sety</a></li>
+   </ul>
+   </li>
+   <li><a href="turtle_tell__state.html" class="daddy">Turtle Tell  State</a>
+   <ul class="other-section">
+      <li><a href="position.html" class="no-ch">Position</a></li>
+      <li><a href="xcor__ycor.html" class="no-ch">xcor &amp; ycor</a></li>
+   </ul>
+   </li>
+   <li><a href="pen_control.html" class="daddy">Pen Control</a>
+   <ul class="other-section">
+      <li><a href="pendown__penup.html" class="no-ch">Pendown &amp; Penup</a></li>
+      <li><a href="pensize.html" class="no-ch">Pensize</a></li>
+   </ul>
+   </li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="setposition.html" class="prev"><span><span>&laquo; </span>Sebelumnya</span></a> <span class="sep">| </span><a href="turtle_tell__state.html" class="next"><span>Lanjut<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Setx &amp; Sety</h1></header>
+<article class="iDevice_wrapper textIdevice" id="id42">
+<div class="iDevice emphasis0" >
+<div id="ta42_153_2" class="block iDevice_content">
+<div class="exe-text"><p>Metode setx() dan sety() digunakan untuk mengubah posisi penyu secara spesifik pada sumbu x atau y, tanpa mengubah posisi pada sumbu lainnya. Ini memungkinkan kita untuk menggerakkan penyu secara horizontal atau vertikal sambil mempertahankan posisi di sumbu lainnya.</p></div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice" id="id43">
+<div class="iDevice emphasis0" >
+<div id="ta43_154_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-engagement"><section class="exe-udlContent-block js-hidden"><header class="exe-udlContent-header exe-udlContent-character-4"><h2>Set X</h2></header><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Metode&nbsp;setx()&nbsp;digunakan untuk mengatur posisi penyu pada sumbu x tanpa mengubah posisi pada sumbu y.</p>
+<p>Sintaks:</p>
+<p>turtle.setx(x)<br>&nbsp;<br>x: Nilai koordinat x baru (bisa berupa bilangan bulat atau desimal).<br>Contoh Penggunaan:</p>
+<p>turtle.setpos(-100, 100) # Penyu ditempatkan pada posisi (-100, 100)<br>turtle.setx(200) # Penyu bergerak ke posisi (200, 100) tanpa mengubah koordinat y<br>&nbsp;</p>
+<p>Apa yang terjadi?</p>
+<p>Penyu pertama-tama ditempatkan di koordinat (-100, 100).<br>Kemudian,&nbsp;setx(200)&nbsp;mengubah posisi x penyu menjadi 200, sehingga penyu bergerak ke posisi (200, 100), tanpa mengubah posisi y-nya.</p></div></div></section><section class="exe-udlContent-block js-hidden"><header class="exe-udlContent-header exe-udlContent-character-4"><h2>Set Y</h2></header><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Metode&nbsp;sety()&nbsp;digunakan untuk mengatur posisi penyu pada sumbu y tanpa mengubah posisi pada sumbu x.</p>
+<p>Sintaks:</p>
+<p>turtle.sety(y)<br>&nbsp;<br>y: Nilai koordinat y baru (bisa berupa bilangan bulat atau desimal).<br>Contoh Penggunaan:</p>
+<p>turtle.setpos(-100, 100) # Penyu ditempatkan pada posisi (-100, 100)<br>turtle.sety(-200) # Penyu bergerak ke posisi (-100, -200) tanpa mengubah koordinat x<br>&nbsp;</p>
+<p>Apa yang terjadi?</p>
+<p>Penyu pertama-tama ditempatkan di koordinat (-100, 100).<br>Kemudian,&nbsp;sety(-200)&nbsp;mengubah posisi y penyu menjadi -200, sehingga penyu bergerak ke posisi (-100, -200), tanpa mengubah posisi x-nya.</p></div></div></section></div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id46">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Coba Program</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta46_157_2" class="block iDevice_content">
+<div class="exe-text"><p><iframe width="100%" height="356" src="https://trinket.io/embed/python/df9fab81676f" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen="allowfullscreen"></iframe></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper MultichoiceIdevice em_iDevice em_iDevice_question" id="id47">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pilihan Ganda</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<section class="question">
+<form name="multi-choice-form-47_86" action="#" onsubmit="return false" class="activity-form">
+<h1 class="js-sr-av">Pertanyaan</h1>
+<div id="taquestion47_86" class="block question iDevice_content">
+<p>Penyu saat ini berada di posisi awal (0, 0). Kemudian, perintah berikut dijalankan:</p>
+<p>turtle.sety(150)</p>
+<p>Apa posisi penyu setelah perintah tersebut dieksekusi?</p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Answers</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i47_89" class="sr-av"><a href="#answer-47_89">Opsi 1</a></label><input type="radio" name="option47_86" id="i47_89" class="exe-radio-option exe-radio-option-0-4-47_86-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-47_89"><div id="taans47_89" class="block iDevice_content">
+<p>(0, 150)</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i47_92" class="sr-av"><a href="#answer-47_92">Opsi 2</a></label><input type="radio" name="option47_86" id="i47_92" class="exe-radio-option exe-radio-option-1-4-47_86-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-47_92"><div id="taans47_92" class="block iDevice_content">
+<p>(150, 0)</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i47_391" class="sr-av"><a href="#answer-47_391">Opsi 3</a></label><input type="radio" name="option47_86" id="i47_391" class="exe-radio-option exe-radio-option-2-4-47_86-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-47_391"><div id="taans47_391" class="block iDevice_content">
+<p>(150, 150)</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i47_394" class="sr-av"><a href="#answer-47_394">Opsi 4</a></label><input type="radio" name="option47_86" id="i47_394" class="exe-radio-option exe-radio-option-3-4-47_86-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-47_394"><div id="taans47_394" class="block iDevice_content">
+<p>(0, -150)</p>
+</div>
+</div>
+</section>
+</section>
+<section class="iDevice_feedbacks js-feedback">
+<h1 class="js-sr-av">Umpanbalik</h1>
+<section id="sa0b47_86" class="feedback js-hidden">
+<p>Correct Option</p>
+</section>
+<section id="sa1b47_86" class="feedback js-hidden">
+<p>Salah</p>
+</section>
+<section id="sa2b47_86" class="feedback js-hidden">
+<p>Salah</p>
+</section>
+<section id="sa3b47_86" class="feedback js-hidden">
+<p>Salah</p>
+</section>
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solution</h1>
+<ol>
+<li><a href="#answer-47_89">Correct Option</a><span> (<a href="#sa0b47_86">Umpanbalik</a>)</span></li>
+<li><a href="#answer-47_92">Salah</a><span> (<a href="#sa1b47_86">Umpanbalik</a>)</span></li>
+<li><a href="#answer-47_391">Salah</a><span> (<a href="#sa2b47_86">Umpanbalik</a>)</span></li>
+<li><a href="#answer-47_394">Salah</a><span> (<a href="#sa3b47_86">Umpanbalik</a>)</span></li>
+</ol>
+</section>
+</section>
+<section class="question">
+<form name="multi-choice-form-47_95" action="#" onsubmit="return false" class="activity-form">
+<h1 class="js-sr-av">Pertanyaan</h1>
+<div id="taquestion47_95" class="block question iDevice_content">
+<p>Penyu ditempatkan di posisi awal (50, -50). Setelah itu, perintah berikut dijalankan secara berurutan:</p>
+<p>turtle.setx(-100)<br />turtle.sety(200)</p>
+<p>Apa posisi akhir penyu setelah kedua perintah dijalankan?</p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Answers</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i47_98" class="sr-av"><a href="#answer-47_98">Opsi 1</a></label><input type="radio" name="option47_95" id="i47_98" class="exe-radio-option exe-radio-option-0-4-47_95-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-47_98"><div id="taans47_98" class="block iDevice_content">
+<p>(50, 200)</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i47_101" class="sr-av"><a href="#answer-47_101">Opsi 2</a></label><input type="radio" name="option47_95" id="i47_101" class="exe-radio-option exe-radio-option-1-4-47_95-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-47_101"><div id="taans47_101" class="block iDevice_content">
+<p>(-100, -50)</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i47_397" class="sr-av"><a href="#answer-47_397">Opsi 3</a></label><input type="radio" name="option47_95" id="i47_397" class="exe-radio-option exe-radio-option-2-4-47_95-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-47_397"><div id="taans47_397" class="block iDevice_content">
+<p>(-100, 200)</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i47_400" class="sr-av"><a href="#answer-47_400">Opsi 4</a></label><input type="radio" name="option47_95" id="i47_400" class="exe-radio-option exe-radio-option-3-4-47_95-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-47_400"><div id="taans47_400" class="block iDevice_content">
+<p>(0, 0)</p>
+</div>
+</div>
+</section>
+</section>
+<section class="iDevice_feedbacks js-feedback">
+<h1 class="js-sr-av">Umpanbalik</h1>
+<section id="sa0b47_95" class="feedback js-hidden">
+<p>Salah</p>
+</section>
+<section id="sa1b47_95" class="feedback js-hidden">
+<p>Salah</p>
+</section>
+<section id="sa2b47_95" class="feedback js-hidden">
+<p>Correct Option</p>
+</section>
+<section id="sa3b47_95" class="feedback js-hidden">
+<p>Salah</p>
+</section>
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solution</h1>
+<ol>
+<li><a href="#answer-47_98">Salah</a><span> (<a href="#sa0b47_95">Umpanbalik</a>)</span></li>
+<li><a href="#answer-47_101">Salah</a><span> (<a href="#sa1b47_95">Umpanbalik</a>)</span></li>
+<li><a href="#answer-47_397">Correct Option</a><span> (<a href="#sa2b47_95">Umpanbalik</a>)</span></li>
+<li><a href="#answer-47_400">Salah</a><span> (<a href="#sa3b47_95">Umpanbalik</a>)</span></li>
+</ol>
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Perizinan di bawah</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution Share Alike License 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="setposition.html" class="prev"><span><span>&laquo; </span>Sebelumnya</span></a> <span class="sep">| </span><a href="turtle_tell__state.html" class="next"><span>Lanjut<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Made with eXeLearning<span> (New Window)</span></span></a></p><script type="text/javascript" src="_cedec_js.js"></script></body></html>

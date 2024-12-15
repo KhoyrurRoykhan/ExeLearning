@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="id">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Position | libturtle </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="roy" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.9 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head>
+<body class="exe-web-site" id="exe-node-8"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Skip navigation</a></p>
+<header id="header" ><div id="headerContent">libturtle</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Library Turtle</a></li>
+   <li><a href="turtle_motion.html" class="daddy">Turtle Motion</a>
+   <ul class="other-section">
+      <li><a href="left__right.html" class="no-ch">Left &amp; Right</a></li>
+      <li><a href="forward__backward.html" class="no-ch">Forward &amp; Backward</a></li>
+      <li><a href="setposition.html" class="no-ch">Setposition</a></li>
+      <li><a href="setx__sety.html" class="no-ch">Setx &amp; Sety</a></li>
+   </ul>
+   </li>
+   <li class="current-page-parent"><a href="turtle_tell__state.html" class="current-page-parent daddy">Turtle Tell  State</a>
+   <ul>
+      <li id="active"><a href="position.html" class="active no-ch">Position</a></li>
+      <li><a href="xcor__ycor.html" class="no-ch">xcor &amp; ycor</a></li>
+   </ul>
+   </li>
+   <li><a href="pen_control.html" class="daddy">Pen Control</a>
+   <ul class="other-section">
+      <li><a href="pendown__penup.html" class="no-ch">Pendown &amp; Penup</a></li>
+      <li><a href="pensize.html" class="no-ch">Pensize</a></li>
+   </ul>
+   </li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="turtle_tell__state.html" class="prev"><span><span>&laquo; </span>Sebelumnya</span></a> <span class="sep">| </span><a href="xcor__ycor.html" class="next"><span>Lanjut<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Position</h1></header>
+<article class="iDevice_wrapper textIdevice" id="id14">
+<div class="iDevice emphasis0" >
+<div id="ta14_141_2" class="block iDevice_content">
+<div class="exe-text"><p>Metode pos() atau position() digunakan untuk mendapatkan lokasi penyu (turtle) saat ini dalam bentuk koordinat (x, y) sebagai vektor 2D (Vec2D). Metode ini berguna ketika kita perlu mengetahui posisi penyu di kanvas, terutama saat melakukan perhitungan atau membuat pola yang bergantung pada lokasi penyu.</p>
+<p>Alias: pos() dan position()<br />Sintaks:turtle.pos()<br /> <br />atauturtle.position()<br /> <br />Return Value: Mengembalikan posisi penyu saat ini dalam format (x, y).<br />Keterangan:</p>
+<p>Fungsi ini tidak memerlukan argumen.<br />Posisi default penyu di awal adalah (0, 0), yaitu titik pusat kanvas.<br />Contoh Penggunaan:</p>
+<p>turtle.forward(100) # Penyu bergerak maju 100 unit<br />current_position = turtle.pos() # Mendapatkan posisi saat ini<br />print(current_position) # Menampilkan posisi penyu saat ini<br /> <br />Output: (100.00, 0.00)<br />Penyu bergerak 100 unit ke depan dari posisi awal (0, 0), sehingga posisinya sekarang adalah (100, 0).</p>
+<p><br /><strong>Kesimpulan</strong></p>
+<p>Metode pos() atau position() sangat berguna untuk mengetahui lokasi penyu pada kanvas dalam bentuk koordinat (x, y). Ini membantu dalam perhitungan posisi dan membuat pola yang kompleks berdasarkan posisi penyu yang ada.</p></div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id48">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Coba Program</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta48_159_2" class="block iDevice_content">
+<div class="exe-text"><p><iframe width="100%" height="356" src="https://trinket.io/embed/python/df9fab81676f" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen="allowfullscreen"></iframe></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper MultichoiceIdevice em_iDevice em_iDevice_question" id="id15">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pilihan Ganda</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<section class="question">
+<form name="multi-choice-form-15_86" action="#" onsubmit="return false" class="activity-form">
+<h1 class="js-sr-av">Pertanyaan</h1>
+<div id="taquestion15_86" class="block question iDevice_content">
+<p>1. Apa fungsi dari perintah turtle.position()?</p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Answers</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i15_89" class="sr-av"><a href="#answer-15_89">Opsi 1</a></label><input type="radio" name="option15_86" id="i15_89" class="exe-radio-option exe-radio-option-0-3-15_86-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-15_89"><div id="taans15_89" class="block iDevice_content">
+<p>Mengubah posisi turtle ke koordinat baru.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i15_92" class="sr-av"><a href="#answer-15_92">Opsi 2</a></label><input type="radio" name="option15_86" id="i15_92" class="exe-radio-option exe-radio-option-1-3-15_86-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-15_92"><div id="taans15_92" class="block iDevice_content">
+<p>Mengembalikan posisi saat ini dari turtle dalam bentuk koordinat (x, y).</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i15_256" class="sr-av"><a href="#answer-15_256">Opsi 3</a></label><input type="radio" name="option15_86" id="i15_256" class="exe-radio-option exe-radio-option-2-3-15_86-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-15_256"><div id="taans15_256" class="block iDevice_content">
+<p>Memutar arah turtle ke posisi tertentu.</p>
+</div>
+</div>
+</section>
+</section>
+<section class="iDevice_feedbacks js-feedback">
+<h1 class="js-sr-av">Umpanbalik</h1>
+<section id="sa0b15_86" class="feedback js-hidden">
+<p>Salah</p>
+</section>
+<section id="sa1b15_86" class="feedback js-hidden">
+<p>Correct Option</p>
+</section>
+<section id="sa2b15_86" class="feedback js-hidden">
+<p>Salah</p>
+</section>
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solution</h1>
+<ol>
+<li><a href="#answer-15_89">Salah</a><span> (<a href="#sa0b15_86">Umpanbalik</a>)</span></li>
+<li><a href="#answer-15_92">Correct Option</a><span> (<a href="#sa1b15_86">Umpanbalik</a>)</span></li>
+<li><a href="#answer-15_256">Salah</a><span> (<a href="#sa2b15_86">Umpanbalik</a>)</span></li>
+</ol>
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Perizinan di bawah</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution Share Alike License 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="turtle_tell__state.html" class="prev"><span><span>&laquo; </span>Sebelumnya</span></a> <span class="sep">| </span><a href="xcor__ycor.html" class="next"><span>Lanjut<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Made with eXeLearning<span> (New Window)</span></span></a></p><script type="text/javascript" src="_cedec_js.js"></script></body></html>
